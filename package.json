@@ -1,0 +1,36 @@
+{
+  "name": "mobile",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^8.36.1",
+    "@wdio/appium-service": "^8.36.1",
+    "@wdio/browser-runner": "^8.36.1",
+    "@wdio/cli": "^8.36.1",
+    "@wdio/local-runner": "^8.36.1",
+    "@wdio/mocha-framework": "^8.36.1",
+    "@wdio/sauce-service": "^8.36.1",
+    "@wdio/spec-reporter": "^8.36.1",
+    "@wdio/visual-service": "^4.1.0",
+    "appium": "^2.5.4",
+    "appium-uiautomator2-driver": "^3.1.0",
+    "appium-xcuitest-driver": "^7.14.0",
+    "wdio-electron-service": "^6.4.1",
+    "wdio-vscode-service": "^6.0.3"
+  },
+  "scripts": {
+    "test": "wdio run ./wdio.conf.js",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "wdio": "^6.0.1"
+  },
+  "version": "1.0.0",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "AppThiagoNovo",
+  "license": "ISC",
+  "description": ""
+}
